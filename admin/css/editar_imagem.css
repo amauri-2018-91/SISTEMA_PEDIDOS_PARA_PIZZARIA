@@ -1,0 +1,1325 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Layout --- bootstrp PARA COLUCIONAR PROBLEMA WINDOWS PHONE E IE*/
+@-webkit-viewport{width:device-width}
+@-moz-viewport{width:device-width}
+@-ms-viewport{width:device-width}
+@-o-viewport{width:device-width}
+@viewport{width:device-width}
+
+
+
+
+
+
+/* PADROES --- DE INICIO ___________________######################################################################################   */
+
+
+
+
+/* para dar margem de 15 px de um lado e 15px do outro___no container que tem no final escrito ___ DOSBOTOES  */
+.dosbotoes {
+    padding-left:30px;
+    padding-right:30px;
+	
+}
+
+
+/* 100% de 16 pixels padrao --- PARA USAR ---REM*/
+.html{font-size:100% 
+}
+
+
+
+body{
+	font-size: 100%;
+	line-height: 1.5;
+	background-color: #f6f2eb;
+	/*color: #524d46; */
+}
+
+h1{
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.125em;
+	margin: 0.469em 0 0.469em;
+}
+
+p{
+	margin-bottom: 1.250em;
+}
+
+
+
+/* PADROES --- DE INICIO
+###############
+################# fim PADROES --- DE INICIO ___________________######################################################################################   */
+
+
+
+
+
+
+
+
+
+
+.thumbnail img{
+	height:50%;
+	width:50%;
+	top:50%;
+	left:50%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+#comprarmetade, #comprarinteira{
+	outline:dashed;
+	
+	color:#9FF;
+	background-color:#30F;
+	
+	outline-color:#309;
+	
+}
+
+
+#comprarmetade:active {
+	
+color:white;
+	background-color:#0F3;
+	outline:none;	
+}
+
+#comprarinteira:active {
+	
+color:white;
+	background-color:#0F3;	
+		outline:none;	
+
+}
+
+
+/* ______________________###################################################################################################################################################################################### */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*_____________________________inicio  TOPO FIXO____fAZER lOGIN #################### ##################################################################################################################  */
+
+
+  .affix {
+      top: 0;   /* POS Y da linha do menu QUANDO for FIXO(scrool)*/
+      width: 100%; /* SEMPRE SERA 100%____ largur da linha do menu QUANDO for FIXO(scrool)*/
+  }
+
+  .affix + .container-fluid {
+     /* padding-top: 70px;  */
+	 
+  }
+  
+  
+ 
+ 
+
+/* MENU Q COLOQUEI DENTRO DO OUTRO*/
+
+
+/* ******* Para tamanhos do menu FECHADO/ABERTO defina
+eles SEPARADAMENTE */
+
+
+
+   /*  PAI___ MENU EM GERAL___ALTURA PADRAO MENU BOOTSTRAP= 50_px */
+#ESTOUNAPGN_DESL{
+	    z-index:1;
+		margin-bottom:0px;
+		
+	/*	height:22%; /* PAII --- NAV --- ATENCAO HERE IS CONTROLED IN DESLOGADO.MENU.JS --- POIS QUANDO TECLADO MOBILE ERA ABERTO AQUI FICAVA MENOR--ALTU BROWSER*/
+		
+
+		width:100% ; /* ana paula */
+
+		   	 background-color:#C16A83; 
+
+
+}
+
+#NAVTOTAL_DESL{
+	   position:absolute;
+       left:0% ; /* ana paula */
+
+	   height:100%; 
+	   width:100%;  /* ana paula */
+
+
+}
+
+
+
+
+   /*  QUANDO MENU FECHADO */
+#navbar-header_DESL{
+     position:absolute;
+	 background-color:#C16A83; /* #161616 */
+	 
+	 height:100%;
+	 width:100%;
+	 
+	/* font-size:100%;  */
+}
+
+
+
+
+
+.navbar-header_DESL > button{
+}
+
+
+
+
+
+  
+#qualpagn_DESL{
+	/*font-size:1.2em;   fonte da_qual pgn vc  */
+	/*  margin-left:4%; PARA NAO CORTAR esq  */
+}
+
+
+
+
+
+
+
+
+
+
+
+/*all input that have type button*/
+input[type='button'] {
+   text-align:center;
+}
+
+
+
+
+
+
+
+
+
+#boasvindas_DESL{
+	position:absolute; /* ana paula */
+	
+	top:10% ;/* ana paula */
+	left:5%;  
+	 
+	  min-width:10%;
+	  min-height:10%;
+	  max-width:55%;
+	  
+	background-color:#B8ECEF; /* ana paula */
+	font-weight:700;
+	color:black;
+}
+
+
+
+
+
+
+
+
+
+
+/* ana paula */
+#botaocadastrar_DESL{	
+	position:absolute; /* ana paula */
+	
+	top:0% ;/* ana paula */
+	left:55%;  
+	 
+	  width:40%;
+	  max-width:43%;
+	  
+	  height:30%;
+	background-color:#F06; /* ana paula */
+	font-weight:700;
+}
+
+
+/* ana paula */
+#botaocadastrar_DESL:active{	
+
+	background-color:#F90; /* ana paula */
+}
+
+
+
+
+
+
+
+
+/*_______________________________________________________  */
+
+/*_______________________FORM____LOGIN   */
+
+
+#ESTOUNAPGN_DESL > #NAVTOTAL_DESL > #navbar-header_DESL > #FazerLoginForm{
+   position:absolute;
+    /* background-color:blue; testes */
+	 height:70%;
+	  width:70%;
+	   left:0%;
+	    top:30%;
+}
+
+#ESTOUNAPGN_DESL > #NAVTOTAL_DESL > #navbar-header_DESL > #FazerLoginForm > .row{
+	 position:absolute;
+	  /*background-color:green; testes */
+	   height:100%; 
+	   width:100%;
+	    left:0%; 
+		top:0%;
+}
+
+
+
+/*########################################## */
+
+#ESTOUNAPGN_DESL > #NAVTOTAL_DESL > #navbar-header_DESL > #FazerLoginForm > .row > #colunainputsenha{
+	position:absolute; 
+	height:40%;
+	 width:80%;
+	  top:0%;
+	   background-color:#C16A83;
+}
+
+/*__--------- INPUT senha */
+#ESTOUNAPGN_DESL > #NAVTOTAL_DESL > #navbar-header_DESL > #FazerLoginForm > .row > #colunainputsenha > .inputslogin{
+    background-color:#F1FCFE;
+	 font-weight:300;
+	  color:black;
+	   position:absolute;
+	    width:100%; 
+		height:100%;
+}
+
+#ESTOUNAPGN_DESL > #NAVTOTAL_DESL > #navbar-header_DESL > #FazerLoginForm > .row > #colunainputsenha > .inputslogin:focus{
+    background-color:#CFF;
+	 font-weight:700;
+	  color:black;
+}
+
+/*--------- ---------- */
+/*########################################## */
+
+
+#ESTOUNAPGN_DESL > #NAVTOTAL_DESL > #navbar-header_DESL > #FazerLoginForm > .row > #colunainputemail{
+	position:absolute; 
+	height:40%;
+	 width:80%;
+	  top:60%;
+	   background-color:#C16A83;
+}
+
+
+/*__--------- INPUT email */
+#ESTOUNAPGN_DESL > #NAVTOTAL_DESL > #navbar-header_DESL > #FazerLoginForm > .row > #colunainputemail > .inputslogin{
+    background-color:#F1FCFE;
+	 font-weight:300;
+	  color:black;
+	   position:absolute;
+	    width:100%; 
+		height:100%;
+}
+
+#ESTOUNAPGN_DESL > #NAVTOTAL_DESL > #navbar-header_DESL > #FazerLoginForm > .row > #colunainputemail > .inputslogin:focus{
+    background-color:#CFF;
+	 font-weight:700;
+	  color:black;
+}
+
+/*---------  ---------- */
+/*########################################## */
+
+
+
+    #ESTOUNAPGN_DESL > #NAVTOTAL_DESL > #navbar-header_DESL > #FazerLoginForm > .row > #BotaoLogin{
+	 position:absolute;
+	  background-color:yellow;
+	   height:40%;
+	    width:30%;
+		 left:85%;
+		  top:60%;
+ }
+  #ESTOUNAPGN_DESL > #NAVTOTAL_DESL > #navbar-header_DESL > #FazerLoginForm > .row > #BotaoLogin:active{
+	  background-color:orange;
+	  font-weight:600;
+ }
+ 
+ 
+ /*----------------------------------*/
+
+
+
+
+/*_______________________________________________________  */
+
+/*_______________________FORM____LOGIN__acima   */
+
+
+
+
+
+#botaomenu_DESL{
+	position:absolute; /* ana paula */
+	
+	left:80%;  /* ana paula */
+	top:38%;
+	
+	width:13%;
+	max-width:15%;
+	
+	height:40%;
+	
+	margin-right:2px; /*margin direita*/
+	background-color:#CC9; /* ana paula */
+	
+	
+}
+
+
+/* ana paula */
+#botaomenu_DESL:active{	
+
+	background-color:#F90; /* ana paula */
+}
+
+
+
+
+
+
+
+
+
+
+ /* Small Devices, Tablets */
+@media screen and (max-width: 768px) {
+ 
+ 
+
+  /* ------------------  menu PAGINAS PARA smartphones  ---- */
+
+ 
+  /*  QUANDO MENU ABERTO */
+#paginas{
+}
+
+/*  QUANDO MENU ABERTO */
+#bs-example-navbar-collapse-1_DESL{
+	
+	position:relative;  /*  ana paula */
+	margin-top:34%;  /*ana paula */
+	width:95%;
+	top:25%;    /*ana paula */
+	left:5%;
+	
+	background-color:#000;
+}
+ /* ------------------fiimm  menu PAGINAS PARA smartphones  ---- */
+
+
+ }    /* ---FIIM MEDIA QUERIE SMARTPHONE ---- */
+
+
+
+/*
+####
+#### 
+
+##########################
+
+*/
+
+
+
+ /*  Tablets ate medios pcs e grandes pcs */
+@media only screen and (min-width : 769px)  {
+ 
+ 
+ /* ------------------  menu PAGINAS PARA PCS  ---- */
+ 
+ #ESTOUNAPGN_DESL {
+	width:100%;
+    position:relative;
+
+}
+
+
+#NAVTOTAL_DESL {
+	width:100%;
+	position:relative;
+
+}
+
+
+# navbar-header_DESL{
+	width:100%;
+	top:100%;    /*ana paula */
+	left:-5%;
+	
+	position:relative;
+
+}
+
+ 
+ 
+ #bs-example-navbar-collapse-1_DESL {
+	width:100%;
+	top:100%;    /*ana paula */
+	left:-5%;
+	position:relative;
+
+}
+
+
+  /*  QUANDO MENU ABERTO --- AQUI Q FAZ FICAR EM LINHA INLINE*/
+#bs-example-navbar-collapse-1_DESL > #paginas > li > a{
+	width:100%;
+	top:0%;    /*ana paula */
+	left:0%;
+	position:relative;
+
+}
+
+
+
+ /* ------------------fiimm  menu PAGINAS PARA PCS  ---- */
+
+
+ }    /* ---FIIM MEDIA QUERIE PC ---- */
+
+
+
+
+/*
+####
+####
+
+
+####
+
+*/
+    /* --- restante MENU PAGINAS---TANTO SMARTPHONES E PCS ---- */
+
+
+.corparimpar_DESL:nth-child(2n) { background-color:#999; }
+.corparimpar_DESL:nth-child(2n+1) { background-color:purple; color:#0C0; }
+
+
+.corparimpar_DESL:nth-child(2n):hover { background-color:#F93; }
+.corparimpar_DESL:nth-child(2n+1):hover { background-color:F93;  }
+
+
+
+
+
+
+
+#paginas > li > a{
+	color:#FFF;
+	height:30px;
+	font-family:"Courier New", Courier, monospace;
+	
+	margin-left:5%;
+	font-weight:800;
+	
+}
+
+#paginas > li:active{
+		background-color:#F90; /* ana paula */
+}
+
+
+
+  
+
+
+
+/*_____________________________fim TOPO FIXO____fAZER lOGIN #################### ##################################################################################################################  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*_____________________________inicio  TOPO FIXO____AREA__CLIENTE  #################### ##################################################################################################################  */
+
+
+
+
+  .affix {
+      top: 0;   /* POS Y da linha do menu QUANDO for FIXO(scrool)*/
+      width: 100%; /* SEMPRE SERA 100%____ largur da linha do menu QUANDO for FIXO(scrool)*/
+  }
+
+  .affix + .container-fluid {
+     /* padding-top: 70px;  */
+	 
+  }
+  
+  
+ 
+ 
+
+/* MENU Q COLOQUEI DENTRO DO OUTRO*/
+
+
+/* ******* Para tamanhos do menu FECHADO/ABERTO defina
+eles SEPARADAMENTE */
+
+
+
+   /*  PAI___ MENU EM GERAL___ALTURA PADRAO MENU BOOTSTRAP= 50_px */
+#ESTOUNAPGN{
+	    z-index:1;
+		margin-bottom:0px;
+		height:17%; /* ana paula */
+		width:100% ; /* ana paula */
+
+	  	 background-color:#0CC; 
+
+}
+
+#NAVTOTAL{
+	   position:absolute;
+       left:0% ; /* ana paula */
+
+	   height:100%; 
+	   width:100%;  /* ana paula */
+	   
+
+}
+
+
+
+
+   /*  QUANDO MENU FECHADO */
+#navbar-header{
+     position:absolute;
+	 background-color:#0CC; /* #161616 */
+	 
+	 height:100%;
+	 width:100%;
+	 
+	/* font-size:100%;  */
+}
+
+
+
+
+
+.navbar-header > button{
+}
+
+
+
+
+
+  
+#qualpagn{
+	/*font-size:1.2em;   fonte da_qual pgn vc  */
+	/*  margin-left:4%; PARA NAO CORTAR esq  */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*all input that have type button*/
+input[type='button'] {
+   text-align:center;
+}
+
+
+
+
+
+
+
+
+
+#boasvindas{
+	position:absolute; /* ana paula */
+	
+	top:10% ;/* ana paula */
+	left:5%;  
+	 
+	  min-width:10%;
+	  min-height:10%;
+	  max-width:55%;
+	  
+	background-color:#B8ECEF; /* ana paula */
+	font-weight:700;
+	color:black;
+}
+
+
+
+
+
+
+
+
+
+
+/* ana paula */
+#botaodeslogar{	
+	position:absolute; /* ana paula */
+	
+	top:0% ;/* ana paula */
+	left:55%;  
+	 
+	  width:40%;
+	  max-width:43%;
+	  
+	  height:30%;
+	background-color:#F06; /* ana paula */
+	font-weight:700;
+}
+
+
+/* ana paula */
+#botaodeslogar:active{	
+
+	background-color:#F90; /* ana paula */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ana paula */
+#botaolista{
+
+	position:absolute;
+	
+	top:46% ; 
+	left:5%; 
+	 
+	  width:18%;
+	  max-width:21%;
+	  
+	  height:40%;
+	font-weight:700;
+	
+	background-color:#CC9; /* ana paula */
+}
+
+/* ana paula */
+#botaolista:active{	
+
+	background-color:#F90; /* ana paula */
+}
+
+
+
+
+
+
+
+
+/* ana paula */
+#botaopagar{	
+	position:absolute; /* ana paula */
+
+	top:46% ;/* ana paula */
+	left:29%;  
+	 
+	  max-width:50%;
+	  
+	 min-height:40%;
+	 
+	background-color:#9F9; /* ana paula */
+	font-weight:700;
+	
+}
+
+
+/* ana paula */
+#botaopagar:active{	
+
+	background-color:#F90; /* ana paula */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#botaomenu{
+	position:absolute; /* ana paula */
+	
+	left:80%;  /* ana paula */
+	top:38%;
+	
+	width:13%;
+	max-width:15%;
+	
+	height:40%;
+	
+	margin-right:2px; /*margin direita*/
+	background-color:#CC9; /* ana paula */
+	
+	
+}
+
+
+/* ana paula */
+#botaomenu:active{	
+
+	background-color:#F90; /* ana paula */
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+    /*  QUANDO MENU ABERTO */
+#paginas{
+}
+
+/*  QUANDO MENU ABERTO */
+#bs-example-navbar-collapse-1{
+	
+	position:relative;  /*  ana paula */
+	margin-top:20%;  /*ana paula */
+	width:95%;
+	top:25%;    /*ana paula */
+	left:5%;
+	
+	outline:dashed;
+	background-color:#000;
+}
+
+
+
+
+
+.corparimpar:nth-child(2n) { background-color:#999; }
+.corparimpar:nth-child(2n+1) { background-color:#666; color:#0C0; }
+
+
+#paginas > li > a{
+	color:#FFF;
+	height:30px;
+	font-family:"Courier New", Courier, monospace;
+	
+	margin-left:5%;
+	font-weight:800;
+}
+
+#paginas > li:active{
+		background-color:#F90; /* ana paula */
+}
+
+
+/*____________________________________________________
+____________ LISTA quando ABERTA_______*/
+
+.listando > li {
+				 font-weight:700;
+				 color:#9F6;
+	
+}
+
+
+
+
+/*  Cor par e impar lista
+*/
+.listanitens:nth-child(2n) { background-color:#999; }
+.listanitens:nth-child(2n+1) { background-color:#666;  }
+
+
+
+
+
+
+/*  botao em cada linha dos itens para excluir---TAM ref ao tam da LI
+*/
+/* ________________________________nao precisara mais deste
+.listanitens>.excluir{
+	
+	background-color:#F00;
+	color:#FFF;
+	
+		position:absolute;
+		height:100%;
+		width:5%;
+}
+*/
+
+
+/*  icone X do botao escluir centralizado
+*/
+/*
+.listanitens>.excluir> .excluiricone{
+	position:absolute;
+	top:22%;
+	left:22%;
+}
+_________________________________________________
+*/ 
+
+
+
+.listanitens>.deletar{
+	
+	background-color:#F00;
+	color:#FFF;
+	
+	position:absolute;
+		height:100%;  /*da linha LI */
+		width:5%;
+		top:0%; /*zero centraliza na linha LI */
+		left:83%;
+		z-index:1; /* SO PRA PREVENIR___SEMPRE APARECER na frente dos outros */
+}
+
+
+/* ana paula */
+.listanitens>.deletar:active{	
+
+	background-color:#F90; /* ana paula */
+}
+
+
+/*  icone X do botao escluir centralizado
+*/
+.listanitens>.deletar> span{ /* CENTRALIZA o X */
+	position:absolute;
+	top:20%;               
+	left:30%;
+}
+
+
+
+
+
+
+
+
+/*  UL - class   ---tam width ref ao SCREEN
+*/
+.listando{
+	       position:absolute;  /* NOVA TABELA com ajax____absolute e ref ao TOP FIXO(verde) */
+				  width:100%;
+				  height:300%;  /* NOVA TABELA com ajax____300% do pai que é MENU-FIXO(barra verde)___da 2 x e meia a altura do TOPO FIXO VERDE */
+		 background-color:#F66;
+		 top:100%;     /* NOVA TABELA com ajax____o inicio DA LISTA eixo (y) é o FINAL do seu PAI (TOPO VERDE) */ 
+		 left:0%;    /* NOVA TABELA com ajax____do pai que esta grudado do lado esquerdo da tela */
+}
+
+
+
+/*  LI - class
+*/
+.listanitens{
+	position:relative;
+				  width:100%;
+				  height:100%;
+}
+
+
+
+/*_____________________________fim TOPO FIXO____AREA__CLIENTE  #################### ##################################################################################################################  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*_____________________________________BANDEIRAS____CARTOES CRE/DEBITO_______________ */
+.bandeiras{
+	background-color:#666;
+	  min-height:65%;
+	   position:relative;
+}
+
+.bandeiras > .rapidopratico{
+	color:#FFF;
+	 font-weight:500;
+	  margin-top:5%;
+}
+
+
+.bandeiras > .row > .quadband{
+	background-color:#CCC; 
+	position:absolute; 
+	min-height:30%; 
+	top:25%; 
+	left:0%;
+	 margin-top:5%;
+}
+
+
+.bandeiras > .row > .quadband > .cartoestipo{
+	margin-bottom:5%;
+	 margin-top:5%;
+}
+
+/*_____________________________________fimm BANDEIRAS____CARTOES CRE/DEBITO_______________ */
+
+
+
+
+
+
+
+
+
+
+
+
+/*_______________________________________O QUE TEM NA PGN */
+.prdquetem > .row > .itensdapagina{
+	background-color:#64464F;
+	 position:relative;
+	  min-height:10%;
+}
+
+
+.prdquetem > .row > .itensdapagina > .prodquetem{
+	margin-bottom:5%; 
+	color:#DEFD9D;
+	 font-weight:500;
+}
+
+
+.prdquetem > .row > .itensdapagina > .oquetemnapagina{
+	color:#FFF;
+	 font-weight:500;
+	  margin-top:5%;
+}
+/*_______________fom o que tem na pag */
+
+
+
+
+
+
+
+
+
+/*_______________________ ________________________________inicio H1 button*/
+
+ .botaoh1:link{
+	text-decoration: none;  /* retirar SUBLINHADO  */
+ }
+ 
+ .botaoh1 > h1{
+	text-decoration: none;  /* retirar SUBLINHADO  */
+	
+	background-color:#F96;
+	color:#00C;
+    border-color:#00F;
+
+    outline-style:dashed;
+    outline-color: #F60;
+ }
+	
+	
+.botaoh1 > h1:active{
+	text-decoration: none;  /* retirar SUBLINHADO  */
+
+	background-color:#F66;
+	outline-color: #F30;
+
+}
+
+/*_______________________ fim H1 button*/
+
+
+
+
+
+
+
+
+
+/*__________________________ PRODUCTS____TIPO__h1_____ */
+
+.tipoprduto_h1{
+            background-color:#F90;
+		    color:#00C; 
+			border-color:#00F;
+			font-weight:800;
+			min-height:1%;
+}
+
+
+
+
+.facaseupedido_h1{
+	        background-color:#F90;
+		    color:#00C; 
+			border-color:#00F;
+
+			font-weight:800;
+}
+
+
+/*__________________________ FIM PRODUCTS____TIPO__h1_____ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*______PRODUCTS____INFO__________ */
+
+
+.numeral{
+       position:absolute; 
+	   left:0%;
+	   top:0px; 
+	   background-color:#666;
+	   color:#FFF;
+
+}
+
+
+
+.coluna_info{
+	background-color:#F60;
+	 min-height:10%;
+	  border-radius: 22px;  
+}
+
+
+
+
+/*se alterar aqui tam da IMG altera*/
+.produtos{
+	max-height:28%;
+}
+
+
+
+
+/*aqui por que ESPAÇO MARGIN BOTTOM___do CONTAINER____DESL_____pois nao tem mais os botoes BUY */
+.produtos_DESL{
+	max-height:28%;
+	margin-bottom:25%;
+}
+
+
+
+
+
+.coluna_info > .thumbnail{
+background-color:#9c0; 
+min-height:10%;
+}
+
+
+.coluna_info > .thumbnail > .caption{
+	background-color: rgba(255,255,0, 2);
+	  
+	 color:#00F;
+	  min-height:10%;
+}
+
+/*______FIM PRODUCTS____INFO__________ */
+
+
+
+
+
+
+
+
+
+
+          
+        
+		
+		/* _____________ BOTOES___COMPRAR___pizza_____ */
+		
+		
+		 .dosbotoes{
+			 margin-bottom:30%;
+		 }
+		 
+		 
+		 
+		 .colunaicone_pizza{
+			  background-color:rgba(102,102,102,1); 
+			  border-radius:10px;
+		 }
+		 
+		 
+		
+		  .colunaicone_pizza > img{
+			 
+			 margin: 0 auto;
+		 }
+		 
+		 
+		 
+		 .rowbotoes{
+			margin-top:10px;
+		 }
+		 
+		 
+		 #comprarinteira, #comprarmetade {
+			 
+			 white-space: normal;
+		 }
+		
+	    /* _____________FIM  BOTOES___COMPRAR___pizza_____ */
+
+		
+		
+		
+		
+		
+
+
+
+
+
+
+/*______________________________________________________________footer___________________________ */
+/*___________imgs rodape____*/
+
+#back , #anapaula {position:relative; height:60%; width:100%; } 
+#back > .row > .imgrodape > #backimg , #anapaulaimg {position: absolute; position:relative; height:100%; width:100%;  } 
+
+
+/*___________info rodape____*/
+
+.rodape {position: relative; width:100%; min-height:20%; background-color:#666; } 
+.rodape  > .row > .col {position:
+        absolute; top: 10%; left: 0;
+		min-height:2%; width:100%;  white-space: normal; background-color:rgba(51,51,51,0.8)
+}
+	
+	
+  .rodape  > .row > .col > #pizzariaanapaula{ color:white; background-color:#090; }
+  .rodape  > .row > .col > #telefones, .abrimosde{ color:#BEDD42; }
+
+
+/*____________FIM______info RODAPE_____*/
+
+
+
+
+
+

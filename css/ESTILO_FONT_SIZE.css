@@ -1,0 +1,2331 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+/* _________________________________________________________________________________________________________________ */
+/* ATENCAO____ESTE ARQ. CSS____E DESTINADO SOMENTE AOS TAMANHOS DAS FONTES  */
+
+/* _________________________________________________________________________________________________________________ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PADROES --- DE INICIO ____ESTAO DEFINIDAS NO ARQ___*****EDITAR_IMAGEM.CSS_____********__________________________________________  */
+
+  /* NO ARQ___*****EDITAR_IMAGEM.CSS_____******** */
+  /*
+html{
+	font-size:16px;
+}
+
+
+body{
+	font-size: 100%;
+	line-height: 1.5;
+	background-color: #f6f2eb;
+	color: #524d46;
+}
+ */
+
+/*____________________________________________________________________________________________________________________________________ */
+
+
+
+
+   /*
+   ###
+   ###
+      BOOTSTRAP___3___
+	  
+	  ESTE É O PRIMEIRO PONTO DE QUEBRA EM bOOTSTRAP__TRES__ 768PX
+	  
+	  ***O QUE NÃO ESTIVER DENTRO DE QUERIE É CONSIDERADO ATE 768__PX
+	  
+	  
+	  
+
+
+
+/* ***************************************************************************************  */
+
+/* ATENCAO === ESTE FONTS SIZES FICARAM BOM EM SMARTPHONES E PCS----- PORTANTO ELES ESTAO COMO GLOBAL -- NAO VAI FICAR DENTRO DE NENHUM MEDIA QUERIE--- UM VALOR P TUDO -- FICOU ACEITAVEL*/
+
+	/* TEXT QUANTIDADE INPUT */
+	.TEXTQUANT_int, .TEXTQUANT_met{
+		font-size:16px;
+	}
+	
+   
+/*all input that have type button  --- QUANTIDADE INPUT*/
+input[name='qtd'] {
+	  font-size:35px;
+}
+
+
+
+.BU_ADD_CSS, .BU_DEC_CSS{
+		 font-size:17px;
+		}
+		
+
+/* ----------------------------------- FIM BOTOES ADD E RET QUANT --- GLOBAL FONT SIZE*/
+
+
+
+#password, #c {
+	font-size:16px;
+}
+
+
+/*  *************************************************************  */
+
+
+
+
+
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) and (max-width : 990px) {
+		
+		/* %%%% COR___SO PRA__TESTAR ## */
+	/*
+body{
+	background-color:yellow;
+
+}
+
+*/
+
+
+/* ____________________________________________________
+___________________  FONTES:    */
+
+
+#boasvindas, #boasvindas_DESL{
+	font-size:18px;
+
+}
+
+#botaodeslogar, #botaocadastrar_DESL{
+	font-size:15px;
+	
+}
+
+#botaolista{
+	font-size:18px;
+}
+
+
+#botaopagar{
+	font-size:24px;
+}
+
+#BotaoLogin{
+	font-size:26px;
+}
+
+
+#password, #c {
+	font-size:22px;
+}
+
+
+/*
+------------
+*/
+
+
+#paginas > li > a{
+   font-size:22px;
+}
+
+
+
+.listando > li {
+	font-size:14px;
+	
+}
+
+
+/*
+------------
+*/
+
+/* INFORM DA PIZZA___ing VALOR nome  */
+.coluna_info > .thumbnail > .caption{
+	font-size:16px;
+}
+
+
+.coluna_info > .thumbnail > .numeral{
+	font-size:29px;
+}
+
+
+
+ #comprarinteira, #comprarmetade {
+			 font-size:20px;
+		 }
+		 
+		 
+		 
+		 
+		 /* TIPO Onde Estamos */
+ .botaoh1 > h1{
+	 font-size:28px;
+ }
+		 
+		 
+		 
+/*_________abaixo container BANDEIRAS   _____ */
+		 
+		 
+
+/* Faça seu pedido agora  */
+.bandeiras > .facaseupedido_h1{
+	font-size:26px;
+}
+
+/* rapido e pratico  */
+.bandeiras > .rapidopratico{
+	font-size:28px;
+}
+
+/* cartoes credito / debito */
+.bandeiras > .row > .quadband > .cartoestipo{
+	font-size:22px;
+}
+
+/*_________acima container BANDEIRAS   _____ */
+
+
+
+/* TIPO NOSSOS SORVETES----nossas PIZZAS */
+.tipoprduto_h1{
+	font-size:30px;
+}
+
+
+
+/*___________________________________________*/
+/* NESTA PAGINA */
+.itensdapagina > .oquetemnapagina{
+	font-size:30px;
+}
+
+/* Itens que tem na pagina -- H3 */
+.itensdapagina > .prodquetem{
+	font-size:25px;
+}
+
+/*___________________________________________*/
+
+
+
+
+
+
+
+
+
+/* RODAPE____FONES__e___ABRIREMOS DE___e Pizzariaanapaula*/
+/* ENDER e DESENVOLVI____e da classe botaoh1q cuida___*/
+.rodape  > .row > .col > #pizzariaanapaula{ font-size:18px; }
+.rodape  > .row > .col > #telefones, .abrimosde{ font-size:18px; }
+
+
+
+
+
+
+/*
+___________________FIM FONTES
+*/
+
+
+
+    }  /*     FIIIMM  MIN 768 --MAX 990 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) and (max-width : 1999px) {
+
+
+          	/* %%%% COR___SO PRA__TESTAR ## */
+	/*
+body{
+	background-color:yellow;
+
+}
+
+*/
+
+
+/* ____________________________________________________
+___________________  FONTES:    */
+
+
+#boasvindas, #boasvindas_DESL{
+	font-size:18px;
+}
+
+#botaodeslogar, #botaocadastrar_DESL{
+	font-size:15px;
+}
+
+#botaolista{
+	font-size:18px;
+}
+
+
+#botaopagar{
+	font-size:24px;
+}
+
+#BotaoLogin{
+	font-size:26px;
+}
+
+
+#password, #c {
+	font-size:22px;
+}
+
+/*
+------------
+*/
+
+
+#paginas > li > a{
+   font-size:22px;
+}
+
+
+
+.listando > li {
+	font-size:14px;
+	
+}
+
+
+/*
+------------
+*/
+
+/* INFORM DA PIZZA___ing VALOR nome  */
+.coluna_info > .thumbnail > .caption{
+	font-size:16px;
+}
+
+
+.coluna_info > .thumbnail > .numeral{
+	font-size:29px;
+}
+
+
+
+ #comprarinteira, #comprarmetade {
+			 font-size:20px;
+		 }
+		 
+		 
+		 
+		 
+		 /* TIPO Onde Estamos */
+ .botaoh1 > h1{
+	 font-size:28px;
+ }
+		 
+		 
+		 
+/*_________abaixo container BANDEIRAS   _____ */
+		 
+		 
+
+/* Faça seu pedido agora  */
+.bandeiras > .facaseupedido_h1{
+	font-size:26px;
+}
+
+/* rapido e pratico  */
+.bandeiras > .rapidopratico{
+	font-size:28px;
+}
+
+/* cartoes credito / debito */
+.bandeiras > .row > .quadband > .cartoestipo{
+	font-size:22px;
+}
+
+/*_________acima container BANDEIRAS   _____ */
+
+
+
+/* TIPO NOSSOS SORVETES----nossas PIZZAS */
+.tipoprduto_h1{
+	font-size:30px;
+}
+
+
+
+/*___________________________________________*/
+/* NESTA PAGINA */
+.itensdapagina > .oquetemnapagina{
+	font-size:30px;
+}
+
+/* Itens que tem na pagina -- H3 */
+.itensdapagina > .prodquetem{
+	font-size:25px;
+}
+
+/*___________________________________________*/
+
+
+
+
+
+
+
+
+
+/* RODAPE____FONES__e___ABRIREMOS DE___e Pizzariaanapaula*/
+/* ENDER e DESENVOLVI____e da classe botaoh1q cuida___*/
+.rodape  > .row > .col > #pizzariaanapaula{ font-size:18px; }
+.rodape  > .row > .col > #telefones, .abrimosde{ font-size:18px; }
+
+
+
+
+
+
+/*
+___________________FIM FONTES
+*/
+
+
+    }  /*     FIIIMM  MIN 991 --MAX 1999 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+
+     	/* %%%% COR___SO PRA__TESTAR ## */
+	/*
+body{
+	background-color:yellow;
+
+}
+
+*/
+
+
+/* ____________________________________________________
+___________________  FONTES:    */
+
+
+#boasvindas, #boasvindas_DESL{
+	font-size:18px;
+}
+
+#botaodeslogar, #botaocadastrar_DESL{
+	font-size:15px;
+}
+
+#botaolista{
+	font-size:18px;
+}
+
+
+#botaopagar{
+	font-size:24px;
+}
+
+#BotaoLogin{
+	font-size:28px;
+}
+
+
+#password, #c {
+	font-size:24px;
+}
+
+
+/*
+------------
+*/
+
+
+#paginas > li > a{
+   font-size:22px;
+}
+
+
+
+.listando > li {
+	font-size:14px;
+	
+}
+
+
+/*
+------------
+*/
+
+/* INFORM DA PIZZA___ing VALOR nome  */
+.coluna_info > .thumbnail > .caption{
+	font-size:16px;
+}
+
+
+.coluna_info > .thumbnail > .numeral{
+	font-size:29px;
+}
+
+
+
+ #comprarinteira, #comprarmetade {
+			 font-size:20px;
+		 }
+		 
+		 
+		 
+		 
+		 /* TIPO Onde Estamos */
+ .botaoh1 > h1{
+	 font-size:28px;
+ }
+		 
+		 
+		 
+/*_________abaixo container BANDEIRAS   _____ */
+		 
+		 
+
+/* Faça seu pedido agora  */
+.bandeiras > .facaseupedido_h1{
+	font-size:26px;
+}
+
+/* rapido e pratico  */
+.bandeiras > .rapidopratico{
+	font-size:28px;
+}
+
+/* cartoes credito / debito */
+.bandeiras > .row > .quadband > .cartoestipo{
+	font-size:22px;
+}
+
+/*_________acima container BANDEIRAS   _____ */
+
+
+
+/* TIPO NOSSOS SORVETES----nossas PIZZAS */
+.tipoprduto_h1{
+	font-size:30px;
+}
+
+
+
+/*___________________________________________*/
+/* NESTA PAGINA */
+.itensdapagina > .oquetemnapagina{
+	font-size:30px;
+}
+
+/* Itens que tem na pagina -- H3 */
+.itensdapagina > .prodquetem{
+	font-size:25px;
+}
+
+/*___________________________________________*/
+
+
+
+
+
+
+
+
+
+/* RODAPE____FONES__e___ABRIREMOS DE___e Pizzariaanapaula*/
+/* ENDER e DESENVOLVI____e da classe botaoh1q cuida___*/
+.rodape  > .row > .col > #pizzariaanapaula{ font-size:18px; }
+.rodape  > .row > .col > #telefones, .abrimosde{ font-size:18px; }
+
+
+
+
+
+
+/*
+___________________FIM FONTES
+*/
+
+    }  /*     FIIIMM  MIN 1200 pra cima */
+
+
+
+
+
+
+
+/*
+####
+####
+
+
+####
+
+*/
+
+
+
+
+
+/* Custom, iPhone Retina */
+ @media only screen and (min-width : 310px) and (max-width: 349px) {
+
+    
+
+
+/* 1 dpr ___MUITO RARO CELULAR COM 1 pixel ratio APENAS
+
+____IPAD do 1 ao 3 é
+
+*/
+@media 
+(-webkit-min-device-pixel-ratio: 1), 
+(min-resolution: 96dpi),
+ (min-resolution: 1dppx){ 
+
+
+  /* %%%% COR___SO PRA__TESTAR ## */
+	/*
+body{
+	background-color:yellow;
+
+}
+
+*/
+
+
+/* ____________________________________________________
+___________________  FONTES:    */
+
+
+#boasvindas, #boasvindas_DESL{
+	font-size:10px;
+}
+
+#botaodeslogar, #botaocadastrar_DESL{
+	font-size:10px;
+}
+
+#botaolista{
+	font-size:10px;
+}
+
+
+#botaopagar{
+	font-size:11px;
+}
+
+#BotaoLogin{
+	font-size:16px;
+}
+
+
+
+/*
+------------
+*/
+
+
+#paginas > li > a{
+                 font-size:16px;
+}
+
+
+
+.listando > li {
+	font-size:14px;
+	
+}
+
+
+/*
+------------
+*/
+
+/* INFORM DA PIZZA___ing VALOR nome  */
+.coluna_info > .thumbnail > .caption{
+	font-size:16px;
+}
+
+
+.coluna_info > .thumbnail > .numeral{
+	font-size:29px;
+}
+
+
+
+ #comprarinteira, #comprarmetade {
+			 font-size:13px;
+		 }
+		 
+		 
+		 
+		 
+		 /* TIPO Onde Estamos */
+ .botaoh1 > h1{
+	 font-size:24px;
+ }
+		 
+		 
+		 
+/*_________abaixo container BANDEIRAS   _____ */
+		 
+		 
+
+/* Faça seu pedido agora  */
+.bandeiras > .facaseupedido_h1{
+	font-size:16px;
+}
+
+/* rapido e pratico  */
+.bandeiras > .rapidopratico{
+	font-size:18px;
+}
+
+/* cartoes credito / debito */
+.bandeiras > .row > .quadband > .cartoestipo{
+	font-size:14px;
+}
+
+/*_________acima container BANDEIRAS   _____ */
+
+
+
+/* TIPO NOSSOS SORVETES----nossas PIZZAS */
+.tipoprduto_h1{
+	font-size:25px;
+}
+
+
+
+/*___________________________________________*/
+/* NESTA PAGINA */
+.itensdapagina > .oquetemnapagina{
+	font-size:20px;
+}
+
+/* Itens que tem na pagina -- H3 */
+.itensdapagina > .prodquetem{
+	font-size:15px;
+}
+
+/*___________________________________________*/
+
+
+
+
+
+
+
+
+
+/* RODAPE____FONES__e___ABRIREMOS DE___e Pizzariaanapaula*/
+/* ENDER e DESENVOLVI____e da classe botaoh1q cuida___*/
+.rodape  > .row > .col > #pizzariaanapaula{ font-size:18px; }
+.rodape  > .row > .col > #telefones, .abrimosde{ font-size:18px; }
+
+
+
+
+
+
+/*
+___________________FIM FONTES
+*/
+
+
+ } /*  fiim -webkit-min-device-pixel-ratio: 1 retina  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1.25 dpr 
+
+___LG Optimus L70_1.3
+
+*/
+
+
+/*  talvez NAO NECESSARIO ESSA DENSITY  */
+/*
+@media 
+(-webkit-min-device-pixel-ratio: 1.25), 
+(min-resolution: 120dpi),
+ (min-resolution: 1.25dppx){ 
+	
+	
+	
+	body{
+	background-color:blue;
+
+      }
+}
+*/
+
+
+
+
+
+
+
+/*
+
+NAO NECESSARIO
+
+ 1.3 dpr 
+@media 
+(-webkit-min-device-pixel-ratio: 1.3), 
+(min-resolution: 124.8dpi),
+(Min-resolução: 1.33dppx){ 
+     Retina-specific stuff here 
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1.5 dpr */
+@media 
+(-webkit-min-device-pixel-ratio: 1.5), 
+(min-resolution: 144dpi),
+(Min-resolução: 1.5dppx){ 
+    /* Retina-specific stuff here */
+	
+	
+/* %%%% COR___SO PRA__TESTAR ## */
+	/*
+	body{
+	background-color:green;
+
+}
+	*/
+	
+	
+	
+	
+	
+/* ____________________________________________________
+___________________  FONTES:    */
+
+
+#boasvindas, #boasvindas_DESL{
+	font-size:10px;
+}
+
+#botaodeslogar, #botaocadastrar_DESL{
+	font-size:10px;
+}
+
+#botaolista{
+	font-size:10px;
+}
+
+
+#botaopagar{
+	font-size:11px;
+}
+
+#BotaoLogin{
+	font-size:16px;
+}
+
+/*
+------------
+*/
+
+
+#paginas > li > a{
+                 font-size:16px;
+}
+
+
+
+.listando > li {
+	font-size:14px;
+	
+}
+
+
+/*
+------------
+*/
+
+/* INFORM DA PIZZA___ing VALOR nome  */
+.coluna_info > .thumbnail > .caption{
+	font-size:16px;
+}
+
+
+
+.coluna_info > .thumbnail > .numeral{
+	font-size:29px;
+}
+
+
+ #comprarinteira, #comprarmetade {
+			 font-size:13px;
+		 }
+		
+		
+		
+		/* TIPO Onde Estamos */
+ .botaoh1 > h1{
+	 font-size:24px;
+ }
+
+
+
+
+
+ /*_________abaixo container BANDEIRAS   _____ */
+		 
+
+/* Faça seu pedido agora  */
+.bandeiras > .facaseupedido_h1{
+	font-size:16px;
+}
+
+/* rapido e pratico  */
+.bandeiras > .rapidopratico{
+	font-size:18px;
+}
+
+/* cartoes credito / debito */
+.bandeiras > .row > .quadband > .cartoestipo{
+	font-size:14px;
+}
+
+/*_________acima container BANDEIRAS   _____ */
+
+
+
+
+/* TIPO NOSSOS SORVETES----nossas PIZZAS */
+.tipoprduto_h1{
+	font-size:25px;
+}
+
+
+
+
+/*___________________________________________*/
+/* NESTA PAGINA */
+.itensdapagina > .oquetemnapagina{
+	font-size:20px;
+}
+
+/* Itens que tem na pagina -- H3 */
+.itensdapagina > .prodquetem{
+	font-size:15px;
+}
+
+/*___________________________________________*/
+
+
+
+
+
+
+
+/* RODAPE____FONES__e___ABRIREMOS DE___e Pizzariaanapaula*/
+/* ENDER e DESENVOLVI____e da classe botaoh1q cuida___*/
+.rodape  > .row > .col > #pizzariaanapaula{ font-size:18px; }
+.rodape  > .row > .col > #telefones, .abrimosde{ font-size:18px; }
+
+
+
+
+/*
+___________________FIM FONTES
+*/
+
+	
+	
+} /*  fiim -webkit-min-device-pixel-ratio: 1.5 retina  */
+
+
+
+
+
+
+
+
+
+
+/* 2 dpr */
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(Min-resolução: 192dpi),
+(Min-resolução: 2dppx){ 
+    /* Retina-specific stuff here */
+	
+	
+	
+	/* %%%% COR___SO PRA__TESTAR ## */
+	/*
+	body{
+	background-color:purple;
+
+}
+
+*/
+
+
+
+
+/* ____________________________________________________
+___________________  FONTES:    */
+
+
+#boasvindas, #boasvindas_DESL{
+	font-size:10px;
+}
+
+#botaodeslogar, #botaocadastrar_DESL{
+	font-size:10px;
+}
+
+
+#botaolista{
+	font-size:10px;
+}
+
+
+#botaopagar{
+	font-size:11px;
+}
+
+
+#BotaoLogin{
+	font-size:16px;
+}
+
+/*
+------------
+*/
+
+
+#paginas > li > a{
+                 font-size:16px;
+}
+
+
+
+.listando > li {
+	font-size:14px;
+	
+}
+
+
+/*
+------------
+*/
+
+/* INFORM DA PIZZA___ing VALOR nome  */
+.coluna_info > .thumbnail > .caption{
+	font-size:16px;
+}
+
+
+
+.coluna_info > .thumbnail > .numeral{
+	font-size:29px;
+}
+
+
+
+ #comprarinteira, #comprarmetade {
+			 font-size:13px;
+		 }
+	
+			/* TIPO Onde Estamos */
+ .botaoh1 > h1{
+	 font-size:24px;
+ }
+ 	 
+	 
+	 
+	 /*_________abaixo container BANDEIRAS   _____ */
+		 
+		
+
+/* Faça seu pedido agora  */
+.bandeiras > .facaseupedido_h1{
+	font-size:16px;
+}
+
+/* rapido e pratico  */
+.bandeiras > .rapidopratico{
+	font-size:18px;
+}
+
+/* cartoes credito / debito */
+.bandeiras > .row > .quadband > .cartoestipo{
+	font-size:14px;
+}
+
+/*_________acima container BANDEIRAS   _____ */
+
+
+
+/* TIPO NOSSOS SORVETES----nossas PIZZAS */
+.tipoprduto_h1{
+	font-size:25px;
+}
+
+
+
+
+/*___________________________________________*/
+/* NESTA PAGINA */
+.itensdapagina > .oquetemnapagina{
+	font-size:20px;
+}
+
+/* Itens que tem na pagina -- H3 */
+.itensdapagina > .prodquetem{
+	font-size:15px;
+}
+
+/*___________________________________________*/
+
+
+
+
+
+/* RODAPE____FONES__e___ABRIREMOS DE___e Pizzariaanapaula*/
+/* ENDER e DESENVOLVI____e da classe botaoh1q cuida___*/
+.rodape  > .row > .col > #pizzariaanapaula{ font-size:18px; }
+.rodape  > .row > .col > #telefones, .abrimosde{ font-size:18px; }
+
+
+
+
+/*
+___________________FIM FONTES
+*/
+
+
+
+}  /*  fiim -webkit-min-device-pixel-ratio: 2 retina  */
+
+
+
+
+
+
+/* 3 dpr */
+@media 
+(-webkit-min-device-pixel-ratio: 3), 
+(Min-resolução: 288dpi),
+(Min-resolução: 3dppx){ 
+    /* Retina-specific stuff here */
+	
+	
+	
+	/* %%%% COR___SO PRA__TESTAR ## */
+	/*
+	body{
+	background-color:fuchsia;
+
+}
+
+*/
+
+
+/* ____________________________________________________
+___________________  FONTES:    */
+
+
+#boasvindas, #boasvindas_DESL{
+	font-size:10px;
+}
+
+#botaodeslogar, #botaocadastrar_DESL{
+	font-size:10px;
+}
+
+#botaolista{
+	font-size:10px;
+}
+
+
+#botaopagar{
+	font-size:11px;
+}
+
+#BotaoLogin{
+	font-size:16px;
+}
+
+
+/*
+------------
+*/
+
+
+#paginas > li > a{
+                 font-size:16px;
+}
+
+
+
+.listando > li {
+	font-size:14px;
+	
+}
+
+
+/*
+------------
+*/
+
+/* INFORM DA PIZZA___ing VALOR nome  */
+.coluna_info > .thumbnail > .caption{
+	font-size:16px;
+}
+
+
+.coluna_info > .thumbnail > .numeral{
+	font-size:29px;
+}
+
+
+
+ #comprarinteira, #comprarmetade {
+			 font-size:13px;
+		 }
+		 
+		 
+		 
+		 		/* TIPO Onde Estamos */
+ .botaoh1 > h1{
+	 font-size:24px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+	 /*_________abaixo container BANDEIRAS   _____ */
+		 
+	
+
+/* Faça seu pedido agora  */
+.bandeiras > .facaseupedido_h1{
+	font-size:16px;
+}
+
+/* rapido e pratico  */
+.bandeiras > .rapidopratico{
+	font-size:18px;
+}
+
+/* cartoes credito / debito */
+.bandeiras > .row > .quadband > .cartoestipo{
+	font-size:14px;
+}
+
+/*_________acima container BANDEIRAS   _____ */
+
+
+
+
+/* TIPO NOSSOS SORVETES----nossas PIZZAS */
+.tipoprduto_h1{
+	font-size:25px;
+}
+
+
+
+
+/*___________________________________________*/
+/* NESTA PAGINA */
+.itensdapagina > .oquetemnapagina{
+	font-size:20px;
+}
+
+/* Itens que tem na pagina -- H3 */
+.itensdapagina > .prodquetem{
+	font-size:15px;
+}
+
+/*___________________________________________*/
+
+
+
+
+
+
+/* RODAPE____FONES__e___ABRIREMOS DE___e Pizzariaanapaula*/
+/* ENDER e DESENVOLVI____e da classe botaoh1q cuida___*/
+.rodape  > .row > .col > #pizzariaanapaula{ font-size:18px; }
+.rodape  > .row > .col > #telefones, .abrimosde{ font-size:18px; }
+
+
+
+
+
+/*
+___________________FIM FONTES
+*/
+
+
+
+    }  /*  fiim -webkit-min-device-pixel-ratio: 3 retina  */
+	
+}  /* FIM min 320 AND max 349 PX -- screen retinaas____smartphones
+
+
+
+
+/*
+___________________---------------------
+-----------------------------
+
+----------------------------------------------------
+
+----------------------           -------------------
+------------------------------
+
+-------       --------------            ------------
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra Small Devices, Phones ___ ate inicio tablets*/ 
+
+@media only screen and (min-width : 350px) and (max-width: 767px) {
+
+    
+
+
+
+/* 1 dpr ___MUITO RARO CELULAR COM 1 pixel ratio APENAS
+
+____IPAD do 1 ao 3 é
+
+*/
+@media 
+(-webkit-min-device-pixel-ratio: 1), 
+(min-resolution: 96dpi),
+ (min-resolution: 1dppx){ 
+    /* Retina-specific stuff here */
+  
+  
+  /* %%%% COR___SO PRA__TESTAR ## */
+	/*
+body{
+	background-color:brown;
+}
+
+*/
+
+
+
+
+/* ____________________________________________________
+___________________  FONTES:    */
+
+
+#boasvindas, #boasvindas_DESL{
+	font-size:12px;
+}
+
+#botaodeslogar, #botaocadastrar_DESL{
+	font-size:10px;
+}
+
+#botaolista{
+	font-size:13px;
+}
+
+
+#botaopagar{
+	font-size:12px;
+}
+
+#BotaoLogin{
+	font-size:18px;
+}
+
+/*
+------------
+*/
+
+
+#paginas > li > a{
+   font-size:19px;
+}
+
+
+
+.listando > li {
+	font-size:17px;
+	
+}
+
+
+/*
+------------
+*/
+
+/* INFORM DA PIZZA___ing VALOR nome  */
+.coluna_info > .thumbnail > .caption{
+	font-size:16px;
+}
+
+
+
+.coluna_info > .thumbnail > .numeral{
+	font-size:29px;
+}
+
+
+
+
+
+ #comprarinteira, #comprarmetade {
+			 font-size:15px;
+		 }
+		 
+		 
+		 
+		 		/* TIPO Onde Estamos */
+ .botaoh1 > h1{
+	 font-size:23px;
+ }
+ 
+ 
+ 
+	 /*_________abaixo container BANDEIRAS   _____ */
+		 
+
+/* Faça seu pedido agora  */
+.bandeiras > .facaseupedido_h1{
+	font-size:22px;
+}
+
+/* rapido e pratico  */
+.bandeiras > .rapidopratico{
+	font-size:20px;
+}
+
+/* cartoes credito / debito */
+.bandeiras > .row > .quadband > .cartoestipo{
+	font-size:20px;
+}
+
+/*_________acima container BANDEIRAS   _____ */
+
+
+
+
+/* TIPO NOSSOS SORVETES----nossas PIZZAS */
+.tipoprduto_h1{
+	font-size:25px;
+}
+
+
+
+
+/*___________________________________________*/
+/* NESTA PAGINA */
+.itensdapagina > .oquetemnapagina{
+	font-size:24px;
+}
+
+/* Itens que tem na pagina -- H3 */
+.itensdapagina > .prodquetem{
+	font-size:19px;
+}
+
+/*___________________________________________*/
+
+
+
+
+
+/* RODAPE____FONES__e___ABRIREMOS DE___e Pizzariaanapaula*/
+/* ENDER e DESENVOLVI____e da classe botaoh1q cuida___*/
+.rodape  > .row > .col > #pizzariaanapaula{ font-size:18px; }
+.rodape  > .row > .col > #telefones, .abrimosde{ font-size:18px; }
+
+
+
+
+
+/*
+___________________FIM FONTES
+*/
+
+
+
+}  /*  -webkit-min-device-pixel-ratio: 1 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1.25 dpr 
+
+___LG Optimus L70_1.3
+
+*/
+
+/* talvez___NAO NECESSARIO */
+
+/*
+@media 
+(-webkit-min-device-pixel-ratio: 1.25), 
+(min-resolution: 120dpi),
+ (min-resolution: 1.25dppx){ 
+	
+	
+	body{
+	background-color:#999; */   /* cinza 
+            }
+	
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+
+NAO NECESSARIO
+
+ 1.3 dpr 
+@media 
+(-webkit-min-device-pixel-ratio: 1.3), 
+(min-resolution: 124.8dpi),
+(Min-resolução: 1.33dppx){ 
+     Retina-specific stuff here 
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1.5 dpr */
+@media 
+(-webkit-min-device-pixel-ratio: 1.5), 
+(min-resolution: 144dpi),
+(Min-resolução: 1.5dppx){ 
+    /* Retina-specific stuff here */
+	
+	
+/* %%%% COR___SO PRA__TESTAR ## */
+	/*
+	body{
+	background-color:olive;
+}
+*/
+	
+	
+	
+	
+/* ____________________________________________________
+___________________  FONTES:    */
+
+
+#boasvindas, #boasvindas_DESL{
+	font-size:12px;
+}
+
+#botaodeslogar, #botaocadastrar_DESL{
+	font-size:10px;
+}
+
+#botaolista{
+	font-size:13px;
+}
+
+
+#botaopagar{
+	font-size:12px;
+}
+
+#BotaoLogin{
+	font-size:18px;
+}
+
+/*
+------------
+*/
+
+
+#paginas > li > a{
+   font-size:19px;
+}
+
+
+
+.listando > li {
+	font-size:17px;
+	
+}
+
+
+/*
+------------
+*/
+
+/* INFORM DA PIZZA___ing VALOR nome  */
+.coluna_info > .thumbnail > .caption{
+	font-size:16px;
+}
+
+
+
+.coluna_info > .thumbnail > .numeral{
+	font-size:39px;
+}
+
+
+
+ #comprarinteira, #comprarmetade {
+			 font-size:15px;
+		 }
+		 
+		 
+		 		/* TIPO Onde Estamos */
+ .botaoh1 > h1{
+	 font-size:24px;
+ }
+ 
+ 
+ 
+ /*_________abaixo container BANDEIRAS   _____ */
+		 
+
+/* Faça seu pedido agora  */
+.bandeiras > .facaseupedido_h1{
+	font-size:22px;
+}
+
+/* rapido e pratico  */
+.bandeiras > .rapidopratico{
+	font-size:20px;
+}
+
+/* cartoes credito / debito */
+.bandeiras > .row > .quadband > .cartoestipo{
+	font-size:20px;
+}
+
+/*_________acima container BANDEIRAS   _____ */
+
+
+
+
+/* TIPO NOSSOS SORVETES----nossas PIZZAS */
+.tipoprduto_h1{
+	font-size:25px;
+}
+
+
+
+
+/*___________________________________________*/
+/* NESTA PAGINA */
+.itensdapagina > .oquetemnapagina{
+	font-size:24px;
+}
+
+/* Itens que tem na pagina -- H3 */
+.itensdapagina > .prodquetem{
+	font-size:19px;
+}
+
+/*___________________________________________*/
+
+
+
+
+
+/* RODAPE____FONES__e___ABRIREMOS DE___e Pizzariaanapaula*/
+/* ENDER e DESENVOLVI____e da classe botaoh1q cuida___*/
+.rodape  > .row > .col > #pizzariaanapaula{ font-size:18px; }
+.rodape  > .row > .col > #telefones, .abrimosde{ font-size:18px; }
+
+
+
+
+
+/*
+___________________FIM FONTES
+*/
+
+
+
+}  /*  fimmm -webkit-min-device-pixel-ratio: 1.5  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 2 dpr */
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(Min-resolução: 192dpi),
+(Min-resolução: 2dppx){ 
+    /* Retina-specific stuff here */
+	
+	
+	
+	/* %%%% COR___SO PRA__TESTAR ## */
+	/*
+	body{
+	background-color:lightblue;
+   }
+   */
+
+
+
+/* ____________________________________________________
+___________________  FONTES:    */
+
+
+#boasvindas, #boasvindas_DESL{
+	font-size:12px;
+}
+
+#botaodeslogar, #botaocadastrar_DESL{
+	font-size:10px;
+}
+
+#botaolista{
+	font-size:13px;
+}
+
+
+#botaopagar{
+	font-size:12px;
+}
+
+
+#BotaoLogin{
+	font-size:18px;
+}
+
+/*
+------------
+*/
+
+
+#paginas > li > a{
+   font-size:19px;
+}
+
+
+
+.listando > li {
+	font-size:18px;
+	
+}
+
+
+/*
+------------
+*/
+
+/* INFORM DA PIZZA___ing VALOR nome  */
+.coluna_info > .thumbnail > .caption{
+	font-size:16px;
+}
+
+
+
+.coluna_info > .thumbnail > .numeral{
+	font-size:39px;
+}
+
+
+
+
+ #comprarinteira, #comprarmetade {
+			 font-size:16px;
+		 }
+		
+		
+				/* TIPO Onde Estamos */
+ .botaoh1 > h1{
+	 font-size:24px;
+ }
+ 
+ 
+  /*_________abaixo container BANDEIRAS   _____ */
+		 
+
+/* Faça seu pedido agora  */
+.bandeiras > .facaseupedido_h1{
+	font-size:22px;
+}
+
+/* rapido e pratico  */
+.bandeiras > .rapidopratico{
+	font-size:20px;
+}
+
+/* cartoes credito / debito */
+.bandeiras > .row > .quadband > .cartoestipo{
+	font-size:20px;
+}
+
+/*_________acima container BANDEIRAS   _____ */
+
+
+
+
+
+/* TIPO NOSSOS SORVETES----nossas PIZZAS */
+.tipoprduto_h1{
+	font-size:28px;
+}
+
+
+
+
+
+/*___________________________________________*/
+/* NESTA PAGINA */
+.itensdapagina > .oquetemnapagina{
+	font-size:24px;
+}
+
+/* Itens que tem na pagina -- H3 */
+.itensdapagina > .prodquetem{
+	font-size:19px;
+}
+
+/*___________________________________________*/
+
+
+
+
+
+
+/* RODAPE____FONES__e___ABRIREMOS DE___e Pizzariaanapaula*/
+/* ENDER e DESENVOLVI____e da classe botaoh1q cuida___*/
+.rodape  > .row > .col > #pizzariaanapaula{ font-size:18px; }
+.rodape  > .row > .col > #telefones, .abrimosde{ font-size:18px; }
+
+
+
+
+
+/*
+___________________FIM FONTES
+*/
+
+
+} /* fimmm Min-resolução: 192dpi */
+
+}  /* FIM 350 MIN AND max 767____SMARTPHONES  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra Small Devices, Phones ___ ate inicio tablets*/ 
+
+/* ESPECIALMETE PARA____DPPX 3 que tem muitos com largura de 360px*/ 
+/* e outros com uns____msm DPPX mas com largura de 480 PX como LG G3*/ 
+
+
+/* AQUI POR EXEMPLO___sony Z PERIA Z3--- moto G2) */
+@media only screen and (min-width : 350px) and (max-width: 460px) {
+
+    
+	
+/* 3 dpr */
+@media 
+(-webkit-min-device-pixel-ratio: 3), 
+(Min-resolução: 288dpi),
+(Min-resolução: 3dppx){ 
+    /* Retina-specific stuff here */
+	
+	
+	
+	/* %%%% COR___SO PRA__TESTAR ## */
+	/*
+	body{
+	background-color:blue;
+}
+      */
+
+
+
+/* ____________________________________________________
+___________________  FONTES:    */
+
+
+#boasvindas, #boasvindas_DESL{
+	font-size:12px;
+}
+
+#botaodeslogar, #botaocadastrar_DESL{
+	font-size:12px;
+}
+
+#botaolista{
+	font-size:14px;
+}
+
+
+#botaopagar{
+	font-size:15px;
+}
+
+
+#BotaoLogin{
+	font-size:18px;
+}
+
+
+/*
+------------
+*/
+
+
+#paginas > li > a{
+   font-size:22px;
+}
+
+
+
+.listando > li {
+	font-size:17px;
+	
+}
+
+
+/*
+------------
+*/
+
+/* INFORM DA PIZZA___ing VALOR nome  */
+.coluna_info > .thumbnail > .caption{
+	font-size:18px;
+}
+
+
+.coluna_info > .thumbnail > .numeral{
+	font-size:39px;
+}
+
+
+
+ #comprarinteira, #comprarmetade {
+			 font-size:17px;
+		 }
+		 
+/*
+___________________FIM FONTES
+*/
+
+
+		/* TIPO Onde Estamos */
+ .botaoh1 > h1{
+	 font-size:24px;
+ }
+ 
+ 
+ 
+/*_________abaixo container BANDEIRAS   _____ */
+		 
+
+/* Faça seu pedido agora  */
+.bandeiras > .facaseupedido_h1{
+	font-size:22px;
+}
+
+/* rapido e pratico  */
+.bandeiras > .rapidopratico{
+	font-size:20px;
+}
+
+/* cartoes credito / debito */
+.bandeiras > .row > .quadband > .cartoestipo{
+	font-size:20px;
+}
+
+/*_________acima container BANDEIRAS   _____ */
+
+
+
+
+/* TIPO NOSSOS SORVETES----nossas PIZZAS */
+.tipoprduto_h1{
+	font-size:28px;
+}
+
+
+
+
+/*___________________________________________*/
+/* NESTA PAGINA */
+.itensdapagina > .oquetemnapagina{
+	font-size:24px;
+}
+
+/* Itens que tem na pagina -- H3 */
+.itensdapagina > .prodquetem{
+	font-size:19px;
+}
+
+/*___________________________________________*/
+
+
+
+
+
+/* RODAPE____FONES__e___ABRIREMOS DE___e Pizzariaanapaula*/
+/* ENDER e DESENVOLVI____e da classe botaoh1q cuida___*/
+.rodape  > .row > .col > #pizzariaanapaula{ font-size:18px; }
+.rodape  > .row > .col > #telefones, .abrimosde{ font-size:18px; }
+
+
+
+
+
+    }   /*  fimm -webkit-min-device-pixel-ratio: 3  */
+}  /* FIM DPPX3 350 MIN ate__ 460 MAX 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra Small Devices, Phones ___ ate inicio tablets*/ 
+
+/* ESPECIALMETE PARA____DPPX 3 que tem muitos com largura de 360px*/ 
+/* e outros com uns____msm DPPX mas com largura de 480 PX como LG G3*/ 
+
+
+/* AQUI POR EXEMPLO___LG G3) */
+@media only screen and (min-width : 461px) and (max-width: 767px) {
+
+    
+/* 3 dpr */
+@media 
+(-webkit-min-device-pixel-ratio: 3), 
+(Min-resolução: 288dpi),
+(Min-resolução: 3dppx){ 
+    /* Retina-specific stuff here */
+	
+	
+	/* %%%% COR___SO PRA__TESTAR ## */
+	/*
+	body{
+	background-color:black;
+     }
+*/
+
+
+/* ____________________________________________________
+___________________  FONTES:    */
+
+
+#boasvindas, #boasvindas_DESL{
+	font-size:15px;
+}
+
+#botaodeslogar, #botaocadastrar_DESL{
+	font-size:13px;
+}
+
+#botaolista{
+	font-size:17px;
+}
+
+
+#botaopagar{
+	font-size:17px;
+}
+
+
+#BotaoLogin{
+	font-size:22px;
+}
+
+
+/*
+------------
+*/
+
+
+#paginas > li > a{
+   font-size:27px;
+}
+
+
+
+.listando > li {
+	font-size:24px;
+	
+}
+
+
+/*
+------------
+*/
+
+/* INFORM DA PIZZA___ing VALOR nome  */
+.coluna_info > .thumbnail > .caption{
+	font-size:22px;
+}
+
+
+
+
+.coluna_info > .thumbnail > .numeral{
+	font-size:49px;
+}
+
+
+
+ #comprarinteira, #comprarmetade {
+			 font-size:21px;
+		 }
+		 
+		 
+			/* TIPO Onde Estamos */
+ .botaoh1 > h1{
+	 font-size:32px;
+ }	 
+/*
+___________________FIM FONTES
+*/
+
+/*_________abaixo container BANDEIRAS   _____ */
+		 
+
+/* Faça seu pedido agora  */
+.bandeiras > .facaseupedido_h1{
+	font-size:28px;
+}
+
+/* rapido e pratico  */
+.bandeiras > .rapidopratico{
+	font-size:26px;
+}
+
+/* cartoes credito / debito */
+.bandeiras > .row > .quadband > .cartoestipo{
+	font-size:26px;
+}
+
+/*_________acima container BANDEIRAS   _____ */
+
+
+/* TIPO NOSSOS SORVETES----nossas PIZZAS */
+.tipoprduto_h1{
+	font-size:34px;
+}
+
+
+
+/*___________________________________________*/
+/* NESTA PAGINA */
+.itensdapagina > .oquetemnapagina{
+	font-size:30px;
+}
+
+/* Itens que tem na pagina -- H3 */
+.itensdapagina > .prodquetem{
+	font-size:26px;
+}
+
+/*___________________________________________*/
+
+
+
+
+
+
+/* RODAPE____FONES__e___ABRIREMOS DE___e Pizzariaanapaula*/
+/* ENDER e DESENVOLVI____e da classe botaoh1q cuida___*/
+.rodape  > .row > .col > #pizzariaanapaula{ font-size:23px; }
+.rodape  > .row > .col > #telefones, .abrimosde{ font-size:23px; }
+
+
+
+
+
+
+    }  /*  fimmm -webkit-min-device-pixel-ratio: 3  */
+}  /* FIM DPPX3 461 MIN ate__ 767 MAX
+
+

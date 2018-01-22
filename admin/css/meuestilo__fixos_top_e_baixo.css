@@ -1,0 +1,1630 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*
+*******
+**********
+
+PADROES DE MEDIADS RECOMENDADOS PARA INICIAR CSS
+
+********
+*/
+
+
+
+body{
+	font-size:16px;
+}
+
+
+p{
+     font-size : 1.4em  ; /* 1.4em em relação a uma linha de base 16px no corpo irá resultar em um tamanho de fonte 22.8 px ____1(6px * 1.4 = 22.8)*/ 
+    line-height : 1.4em  ;
+ }
+
+/* E se tivermos títulos com estilos definidos gostaríamos também adicionar */ 
+h1 , h2 , h3 , h4 , h5 , h6  {
+     line-height : 1.2em ;
+ }
+
+
+/*
+*******
+**********
+
+acimmaAAA  PADROES DE MEDIADS RECOMENDADOS PARA INICIAR CSS
+
+********
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        
+    }
+
+
+
+
+
+
+
+
+
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /*
+   ###
+   ###
+      BOOTSTRAP___3___
+	  
+	  ESTE É O PRIMEIRO PONTO DE QUEBRA EM bOOTSTRAP__TRES__ 768PX
+	  
+	  ***O QUE NÃO ESTIVER DENTRO DE QUERIE É CONSIDERADO ATE 768__PX
+	  
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+
+
+
+
+
+/*
+####
+####
+
+
+####
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1 dpr ___MUITO RARO CELULAR COM 1 pixel ratio APENAS
+
+____IPAD do 1 ao 3 é
+
+*/
+@media 
+(-webkit-min-device-pixel-ratio: 1), 
+(min-resolution: 96dpi),
+ (min-resolution: 1dppx){ 
+    /* Retina-specific stuff here */
+  
+  
+	
+/*
+******* IMAGENS CORPO PAG **
+*/
+
+#CONtudcenter{
+	width:100%;
+	max-width:100%;
+		left:0 auto;
+		margin-left:6%;
+}
+
+.part{
+	padding-bottom:100px;
+	
+}
+
+/*
+ * ==== dodecagon__FORMA ONDE ESTA AS IMAGENS
+ */ 
+
+.part > .dodeca > .dode1 > .dode2 img{
+	 position:relative;
+	 
+	   height:100%;
+	   width:100%;
+	   
+	   left:50%;
+	   top:50%;
+	   
+	   margin-top:-50%;
+	   margin-left:-100%;
+	
+	
+}
+
+.part > h2{
+	color:#C1FBFF;
+	font-size:19px;
+	font-weight:600;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+ /*AQUI faz a imagem de FUNDo dentro do OCTONO cabe dentro da FORMA */
+.dodeca, .dodeca div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 200px;    /* #### TAMANHO DA FORMA X __*/
+  height: 200px;
+}
+
+/*AQUI e q da a FORMA DODEGNO a imagewm */
+.dodeca {
+  transform: rotate(120deg);
+}
+.dode1 {
+  transform: rotate(-60deg);
+}
+.dode2 {
+  transform: rotate(-60deg);
+}
+
+
+
+.part img:hover {
+	opacity:0.5;
+}
+
+
+
+/*
+ #
+ #
+ #
+ */ 
+ 
+ /* ****** TOPO__MENU__IMG */
+
+.myLogotopo{
+		background-color:#C90;
+    height:150px;
+	width:113%;
+	position:relative; /*RELATIVE porque é PAI*/
+	
+	
+		
+}
+
+.myLogotopo > h1{
+	
+	
+	font-size:1.55em;
+	font-family:'Freckle Face', arial;
+	font-weight:400;
+	left:37%; /*encosta pra direita*/
+	top:59px;
+	position:absolute;/*ABSOLUTE para seguir conforme PAI .mylogotipo*/
+	
+}
+
+
+.myLogotopo > h1 > strong{ /*PROPAGANDA__tudo q fizer no <h1> acima aqui se aplica__aqui é só a cor diferent*/
+	color:#F60;
+}
+
+
+
+
+   /*  IMg ja esta obedecendo ao (Pai Mylogotipo) */
+
+.myLogotopo img{  /* TESTE FEITO+++ COMO A ALTURA DA DIV PAI
+É MENOR Q LARGURA____DEVO DEFINIR SEMPRE O LADO__MENOR PARA
+A IMAGEM FILHA NAO DISTORCER OU SOBREPOR
+
+****POR ISSO NÃO TEM WIDTH__E__SIM hEIGHT___IMG ORIGINAL TEM 1025 X 1025
+*/
+	
+	max-width:70%; /* 80% DA DIV PAI__SO PRA prevenir*/
+	max-height:70%; 
+	
+	height:70%; /* 80% DA DIV PAI 150PX = 120PX */
+	top:17%;  /* DOS 30PX Q SOBROU ALTURA DIV PAI CABE PERFEITO*/
+	
+	
+	left:6%;
+	
+	position:absolute;/*ABSOLUTE para seguir conforme PAI .mylogotipo*/
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+####
+####
+#### MENU TOPO ONDE FICA NOME DA PAGINA___
+
+## ELA É FICA FIXA APOS DESCER A PAGINA (SCROOL)
+
+___ALTURA PADRAO MENU BOOTSTRAP= 50_px
+*/
+
+
+
+
+
+
+  .affix {
+      top: 0;   /* POS Y da linha do menu QUANDO for FIXO(scrool)*/
+      width: 113%; /*113% AQUI EM DPPX__1___tava sobrando ??*/
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+	  
+  }
+  
+  
+ 
+ 
+
+/* MENU Q COLOQUEI DENTRO DO OUTRO*/
+
+
+/* ******* Para tamanhos do menu FECHADO/ABERTO defina
+eles SEPARADAMENTE */
+
+
+
+   /*  PAI___ MENU EM GERAL___ALTURA PADRAO MENU BOOTSTRAP= 50_px */
+#ESTOUNAPGN{
+	z-index:1;
+		margin-bottom:0px;
+ width: 113%; /*113% SO AQUI EM DPPX__1.5___tava sobrando ??*/
+	
+}
+
+#NAVTOTAL{
+}
+
+
+
+.navbar-header > button{
+}
+
+
+
+
+   /*  QUANDO MENU FECHADO */
+.navbar-header{
+	background-color:#161616;
+	
+}
+
+
+#botaomenu{
+	left:77vw;  /*VW__valor de 1 a 100% da LARGURA DA TELA aqui 77 */
+	position:absolute;
+	margin-right:6%; /*margin direita*/
+}
+
+
+  
+#qualpagn{
+	font-size:1em; /*  fonte da_qual pgn vc  */
+	margin-left:4%; /*  PARA NAO CORTAR esq  */
+}
+
+
+
+
+
+    /*  QUANDO MENU ABERTO */
+#bs-example-navbar-collapse-1 > ul > li{
+	height:30px;
+	font-family:"Courier New", Courier, monospace;
+	font-size:1.4em;
+	
+	margin-left:5%;
+
+}
+
+
+
+/* 
+####
+####
+#### FIM___MENU TOPO ONDE FICA NOME DA PAGINA___
+*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1.25 dpr 
+
+___LG Optimus L70_1.3
+
+*/
+
+@media 
+(-webkit-min-device-pixel-ratio: 1.25), 
+(min-resolution: 120dpi),
+ (min-resolution: 1.25dppx){ 
+    /* Retina-specific stuff here */
+	
+	
+	
+	
+	/*
+******* IMAGENS CORPO PAG **
+*/
+
+#CONtudcenter{
+	width:100%;
+	max-width:100%;
+		left:0 auto;
+		margin-left:5%;
+}
+
+.part{
+	padding-bottom:100px;
+	
+}
+
+/*
+ * ==== dodecagon__FORMA ONDE ESTA AS IMAGENS
+ */ 
+
+.part > .dodeca > .dode1 > .dode2 > img{
+	 position:relative;
+	 
+	   height:100%;
+	   width:100%;
+	   
+	   left:50%;
+	   top:50%;
+	   
+	   margin-top:-50%;
+	   margin-left:-100%;
+	
+	
+}
+
+.part > h2{
+	color:#C1FBFF;
+	font-size:25px;
+	font-weight:600;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+ /*AQUI faz a imagem de FUNDo dentro do OCTONO cabe dentro da FORMA */
+.dodeca, .dodeca div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 200px;   /* #### TAMANHO DA FORMA X __*/
+  height: 200px;
+}
+
+/*AQUI e q da a FORMA DODEGNO a imagewm */
+.dodeca {
+  transform: rotate(120deg);
+}
+.dode1 {
+  transform: rotate(-60deg);
+}
+.dode2 {
+  transform: rotate(-60deg);
+}
+
+
+
+.part img:hover {
+	opacity:0.5;
+}
+
+
+
+/*
+ #
+ #
+ #
+ */ 
+ 
+ 
+ 
+ 
+ 
+ /* ****** TOPO__MENU__IMG */
+
+
+.myLogotopo{
+		background-color:#C90;
+    height:150px;
+	width:120%; /* 120% */
+	position:relative; /*RELATIVE porque é PAI*/
+	
+	
+		
+}
+
+.myLogotopo > h1{
+	
+	
+	/*font-size:1.66em;*/
+	font-size:1.66em;
+	
+	font-family:'Freckle Face', arial;
+	font-weight:400;
+	left:45%; /*encosta pra direita*/
+	top:65px;
+	position:absolute;/*ABSOLUTE para seguir conforme PAI .mylogotipo*/
+	
+}
+
+
+.myLogotopo > h1 > strong{ /*PROPAGANDA__tudo q fizer no <h1> acima aqui se aplica__aqui é só a cor diferent*/
+	color:#F60;
+}
+
+
+
+
+   /*  IMg ja esta obedecendo ao (Pai Mylogotipo) */
+
+.myLogotopo img{  /* TESTE FEITO+++ COMO A ALTURA DA DIV PAI
+É MENOR Q LARGURA____DEVO DEFINIR SEMPRE O LADO__MENOR PARA
+A IMAGEM FILHA NAO DISTORCER OU SOBREPOR
+
+****POR ISSO NÃO TEM WIDTH__E__SIM hEIGHT___IMG ORIGINAL TEM 1025 X 1025
+*/
+	
+	max-width:80%; /* 80% DA DIV PAI__SO PRA prevenir*/
+	max-height:80%; 
+	
+	height:80%; /* 80% DA DIV PAI 150PX = 120PX */
+	top:10%;  /* DOS 30PX Q SOBROU ALTURA DIV PAI CABE PERFEITO*/
+	
+	
+	left:8%;
+	
+	position:absolute;/*ABSOLUTE para seguir conforme PAI .mylogotipo*/
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+####
+####
+#### MENU TOPO ONDE FICA NOME DA PAGINA___
+
+## ELA É FICA FIXA APOS DESCER A PAGINA (SCROOL)
+
+___ALTURA PADRAO MENU BOOTSTRAP= 50_px
+*/
+
+
+
+
+
+
+  .affix {
+      top: 0;   /* POS Y da linha do menu QUANDO for FIXO(scrool)*/
+      width: 100%; /* SEMPRE SERA 100%____ largur da linha do menu QUANDO for FIXO(scrool)*/
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+	 
+  }
+  
+  
+ 
+ 
+
+/* MENU Q COLOQUEI DENTRO DO OUTRO*/
+
+
+/* ******* Para tamanhos do menu FECHADO/ABERTO defina
+eles SEPARADAMENTE */
+
+
+
+   /*  PAI___ MENU EM GERAL___ALTURA PADRAO MENU BOOTSTRAP= 50_px */
+#ESTOUNAPGN{
+	z-index:1;
+		margin-bottom:0px;
+
+	
+}
+
+#NAVTOTAL{
+}
+
+
+
+.navbar-header > button{
+}
+
+
+
+
+   /*  QUANDO MENU FECHADO */
+.navbar-header{
+	background-color:#161616;
+	
+}
+
+  
+#qualpagn{
+	font-size:1.2em; /*  fonte da_qual pgn vc  */
+	margin-left:4%; /*  PARA NAO CORTAR esq  */
+}
+
+#botaomenu{
+	left:86vw;  /*VW__valor de 1 a 100% da LARGURA DA TELA */
+	position:absolute;
+	margin-right:4%; /*margin direita*/
+}
+
+
+
+
+    /*  QUANDO MENU ABERTO */
+#bs-example-navbar-collapse-1 > ul > li{
+	height:30px;
+	font-family:"Courier New", Courier, monospace;
+	font-size:1.5em;
+	
+	margin-left:5%;
+}
+
+
+
+/* 
+####
+####
+#### FIM___MENU TOPO ONDE FICA NOME DA PAGINA___
+*/
+
+
+
+
+
+
+	
+	
+}
+
+
+
+
+
+
+
+
+/*
+
+NAO NECESSARIO
+
+ 1.3 dpr 
+@media 
+(-webkit-min-device-pixel-ratio: 1.3), 
+(min-resolution: 124.8dpi),
+(Min-resolução: 1.33dppx){ 
+     Retina-specific stuff here 
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1.5 dpr */
+@media 
+(-webkit-min-device-pixel-ratio: 1.5), 
+(min-resolution: 144dpi),
+(Min-resolução: 1.5dppx){ 
+    /* Retina-specific stuff here */
+	
+	
+	
+	
+	
+	/*
+******* IMAGENS CORPO PAG **
+*/
+
+#CONtudcenter{
+	width:100%;
+	max-width:100%;
+		left:0 auto;
+		margin-left:3%;
+}
+
+.part{
+	padding-bottom:100px;
+	max-width:100%;
+	
+}
+
+/*
+ * ==== dodecagon__FORMA ONDE ESTA AS IMAGENS
+ */ 
+
+.part > .dodeca > .dode1 > .dode2 > img{
+	 position:relative;
+	 
+	   height:100%;
+	   width:100%;
+	   
+	   left:50%;
+	   top:50%;
+	   
+	   margin-top:-50%;
+	   margin-left:-100%;
+	   
+	
+}
+
+.part > h2{
+	color:#C1FBFF;
+	font-size:22px;
+	font-weight:600;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+ /*AQUI faz a imagem de FUNDo dentro do OCTONO cabe dentro da FORMA */
+.dodeca, .dodeca div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 200px;   /* #### TAMANHO DA FORMA X __*/
+  height: 200px;
+}
+
+/*AQUI e q da a FORMA DODEGNO a imagewm */
+.dodeca {
+  transform: rotate(120deg);
+}
+.dode1 {
+  transform: rotate(-60deg);
+}
+.dode2 {
+  transform: rotate(-60deg);
+}
+
+
+
+.part img:hover {
+	opacity:0.5;
+}
+
+
+
+/*
+ #
+ #
+ #
+ */ 
+ 
+ 
+ 
+ 
+ 
+ /* ****** TOPO__MENU__IMG */
+
+.myLogotopo{
+		background-color:#C90;
+    height:150px;
+	width:113%;
+	position:relative; /*RELATIVE porque é PAI*/
+	
+	
+		
+}
+
+.myLogotopo > h1{
+	
+	
+	font-size:1.55em;
+	font-family:'Freckle Face', arial;
+	font-weight:400;
+	left:43%; /*encosta pra direita*/
+	top:63px;
+	position:absolute;/*ABSOLUTE para seguir conforme PAI .mylogotipo*/
+	
+}
+
+
+.myLogotopo > h1 > strong{ /*PROPAGANDA__tudo q fizer no <h1> acima aqui se aplica__aqui é só a cor diferent*/
+	color:#F60;
+}
+
+
+
+
+   /*  IMg ja esta obedecendo ao (Pai Mylogotipo) */
+
+.myLogotopo img{  /* TESTE FEITO+++ COMO A ALTURA DA DIV PAI
+É MENOR Q LARGURA____DEVO DEFINIR SEMPRE O LADO__MENOR PARA
+A IMAGEM FILHA NAO DISTORCER OU SOBREPOR
+
+****POR ISSO NÃO TEM WIDTH__E__SIM hEIGHT___IMG ORIGINAL TEM 1025 X 1025
+*/
+	
+	max-width:70%; /* 80% DA DIV PAI__SO PRA prevenir*/
+	max-height:70%; 
+	
+	height:70%; /* 80% DA DIV PAI 150PX = 120PX */
+	top:15%;  /* DOS 30PX Q SOBROU ALTURA DIV PAI CABE PERFEITO*/
+	
+	
+	left:9%;
+	
+	position:absolute;/*ABSOLUTE para seguir conforme PAI .mylogotipo*/
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+####
+####
+#### MENU TOPO ONDE FICA NOME DA PAGINA___
+
+## ELA É FICA FIXA APOS DESCER A PAGINA (SCROOL)
+
+___ALTURA PADRAO MENU BOOTSTRAP= 50_px
+*/
+
+
+
+
+
+
+  .affix {
+      top: 0;   /* POS Y da linha do menu QUANDO for FIXO(scrool)*/
+      width: 113%; /*113% SO AQUI EM DPPX__1.5___tava sobrando ??*/
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+	  
+  }
+  
+  
+ 
+ 
+
+/* MENU Q COLOQUEI DENTRO DO OUTRO*/
+
+
+/* ******* Para tamanhos do menu FECHADO/ABERTO defina
+eles SEPARADAMENTE */
+
+
+
+   /*  PAI___ MENU EM GERAL___ALTURA PADRAO MENU BOOTSTRAP= 50_px */
+#ESTOUNAPGN{
+	z-index:1;
+		margin-bottom:0px;
+ width: 113%; /*113% SO AQUI EM DPPX__1.5___tava sobrando ??*/
+	
+}
+
+#NAVTOTAL{
+}
+
+
+
+.navbar-header > button{
+}
+
+
+
+
+   /*  QUANDO MENU FECHADO */
+.navbar-header{
+	background-color:#161616;
+	
+}
+
+
+
+
+
+  
+#qualpagn{
+	font-size:1.14em; /*  fonte da_qual pgn vc  */
+	margin-left:4%; /*  PARA NAO CORTAR esq  */
+	left:2%;
+}
+
+#botaomenu{
+	left:80vw;  /*VW__valor de 1 a 100% da LARGURA DA TELA */
+	position:absolute;
+	margin-right:4%; /*margin direita*/
+}
+
+
+
+
+
+    /*  QUANDO MENU ABERTO */
+#bs-example-navbar-collapse-1 > ul > li{
+	height:30px;
+	font-family:"Courier New", Courier, monospace;
+	font-size:1.4em;
+	
+	margin-left:5%;
+
+}
+
+
+
+/* 
+####
+####
+#### FIM___MENU TOPO ONDE FICA NOME DA PAGINA___
+*/
+
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+/* 2 dpr */
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(Min-resolução: 192dpi),
+(Min-resolução: 2dppx){ 
+    /* Retina-specific stuff here */
+	
+	
+	
+	
+	/*
+******* IMAGENS CORPO PAG **
+*/
+
+#CONtudcenter{
+	width:100%;
+	max-width:100%;
+		left:0 auto;
+		margin-left:8%;
+}
+
+.part{
+	padding-bottom:100px;
+	max-width:100%;
+	
+}
+
+/*
+ * ==== dodecagon__FORMA ONDE ESTA AS IMAGENS
+ */ 
+
+.part > .dodeca > .dode1 > .dode2 > img{
+	 position:relative;
+	 
+	   height:100%;
+	   width:100%;
+	   
+	   left:50%;
+	   top:50%;
+	   
+	   margin-top:-50%;
+	   margin-left:-100%;
+	   
+	
+}
+
+.part > h2{
+	color:#C1FBFF;
+	font-size:22px;
+	font-weight:600;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+ /*AQUI faz a imagem de FUNDo dentro do OCTONO cabe dentro da FORMA */
+.dodeca, .dodeca div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 200px;   /* #### TAMANHO DA FORMA X __*/
+  height: 200px;
+}
+
+/*AQUI e q da a FORMA DODEGNO a imagewm */
+.dodeca {
+  transform: rotate(120deg);
+}
+.dode1 {
+  transform: rotate(-60deg);
+}
+.dode2 {
+  transform: rotate(-60deg);
+}
+
+
+
+.part img:hover {
+	opacity:0.5;
+}
+
+
+
+/*
+ #
+ #
+ #
+ */ 
+ 
+ 
+ 
+ 
+ 
+ /* ****** TOPO__MENU__IMG */
+
+.myLogotopo{
+		background-color:#C90;
+    height:150px;
+	width:110%;  /*tava FALTANDO LARGURA DA TELA */
+	position:relative; /*RELATIVE porque é PAI*/
+	
+	
+		
+}
+
+.myLogotopo > h1{
+	
+	
+	font-size:1.6em;
+	font-family:'Freckle Face', arial;
+	font-weight:400;
+	left:45%; /*encosta pra direita*/
+	top:60px;
+	position:absolute;/*ABSOLUTE para seguir conforme PAI .mylogotipo*/
+	
+}
+
+
+.myLogotopo > h1 > strong{ /*PROPAGANDA__tudo q fizer no <h1> acima aqui se aplica__aqui é só a cor diferent*/
+	color:#F60;
+}
+
+
+
+
+   /*  IMg ja esta obedecendo ao (Pai Mylogotipo) */
+
+.myLogotopo img{  /* TESTE FEITO+++ COMO A ALTURA DA DIV PAI
+É MENOR Q LARGURA____DEVO DEFINIR SEMPRE O LADO__MENOR PARA
+A IMAGEM FILHA NAO DISTORCER OU SOBREPOR
+
+****POR ISSO NÃO TEM WIDTH__E__SIM hEIGHT___IMG ORIGINAL TEM 1025 X 1025
+*/
+	
+	max-width:80%; /* 80% DA DIV PAI__SO PRA prevenir*/
+	max-height:80%; 
+	
+	height:80%; /* 80% DA DIV PAI 150PX = 120PX */
+	top:10%;  /* DOS 30PX Q SOBROU ALTURA DIV PAI CABE PERFEITO*/
+	
+	
+	left:5%;
+	
+	position:absolute;/*ABSOLUTE para seguir conforme PAI .mylogotipo*/
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+####
+####
+#### MENU TOPO ONDE FICA NOME DA PAGINA___
+
+## ELA É FICA FIXA APOS DESCER A PAGINA (SCROOL)
+
+___ALTURA PADRAO MENU BOOTSTRAP= 50_px
+*/
+
+
+
+
+
+
+  .affix {
+      top: 0;   /* POS Y da linha do menu QUANDO for FIXO(scrool)*/
+      width: 100%; /* SEMPRE SERA 100%____ largur da linha do menu QUANDO for FIXO(scrool)*/
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+	 
+  }
+  
+  
+ 
+ 
+
+/* MENU Q COLOQUEI DENTRO DO OUTRO*/
+
+
+/* ******* Para tamanhos do menu FECHADO/ABERTO defina
+eles SEPARADAMENTE */
+
+
+
+   /*  PAI___ MENU EM GERAL___ALTURA PADRAO MENU BOOTSTRAP= 50_px */
+#ESTOUNAPGN{
+	z-index:1;
+		margin-bottom:0px;
+
+	
+}
+
+#NAVTOTAL{
+}
+
+
+
+.navbar-header > button{
+}
+
+
+
+
+   /*  QUANDO MENU FECHADO */
+.navbar-header{
+	background-color:#161616;
+	
+}
+
+  
+#qualpagn{
+	font-size:1.2em; /*  fonte da_qual pgn vc  */
+	margin-left:4%; /*  PARA NAO CORTAR esq  */
+}
+
+
+
+/*SO AQUI EM DPPX__1.5___PORQUE FICAVA FORA DA TELA */
+#botaomenu{
+	left:80vw;  /*VW__valor de 1 a 100% da LARGURA DA TELA */
+	position:absolute;
+	margin-right:12px; /*margin direita*/
+}
+
+
+
+
+
+
+    /*  QUANDO MENU ABERTO */
+#bs-example-navbar-collapse-1 > ul > li{
+	height:30px;
+	font-family:"Courier New", Courier, monospace;
+	font-size:1.4em;
+	
+	margin-left:5%;
+}
+
+
+
+/* 
+####
+####
+#### FIM___MENU TOPO ONDE FICA NOME DA PAGINA___
+*/
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 3 dpr */
+@media 
+(-webkit-min-device-pixel-ratio: 3), 
+(min-resolution: 288dpi),
+(Min-resolução: 3dppx){ 
+    /* Retina-specific stuff here */
+	
+	
+	
+	/*
+******* IMAGENS CORPO PAG **
+*/
+
+#CONtudcenter{
+	width:100%;
+	max-width:100%;
+		left:0 auto;
+		margin-left:5.5%;
+}
+
+.part{
+	padding-bottom:100px;
+	max-width:100%;
+	
+}
+
+/*
+ * ==== dodecagon__FORMA ONDE ESTA AS IMAGENS
+ */ 
+
+.part > .dodeca > .dode1 > .dode2 > img{
+	 position:relative;
+	 
+	   height:100%;
+	   width:100%;
+	   
+	   left:50%;
+	   top:50%;
+	   
+	   margin-top:-50%;
+	   margin-left:-100%;
+	   
+	
+}
+
+.part > h2{
+	color:#C1FBFF;
+	font-size:22px;
+	font-weight:600;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+ /*AQUI faz a imagem de FUNDo dentro do OCTONO cabe dentro da FORMA */
+.dodeca, .dodeca div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 200px;   /* #### TAMANHO DA FORMA X __*/
+  height: 200px;
+}
+
+/*AQUI e q da a FORMA DODEGNO a imagewm */
+.dodeca {
+  transform: rotate(120deg);
+}
+.dode1 {
+  transform: rotate(-60deg);
+}
+.dode2 {
+  transform: rotate(-60deg);
+}
+
+
+
+.part img:hover {
+	opacity:0.5;
+}
+
+
+
+/*
+ #
+ #
+ #
+ */ 
+ 
+ 
+ 
+ 
+ 
+ /* ****** TOPO__MENU__IMG */
+
+
+.myLogotopo{
+		background-color:#C90;
+    height:150px;
+	width:110%;  /*tava FALTANDO LARGURA DA TELA */
+	position:relative; /*RELATIVE porque é PAI*/
+	
+	
+		
+}
+
+.myLogotopo > h1{
+	
+	
+	font-size:1.7em;
+	font-family:'Freckle Face', arial;
+	font-weight:400;
+	left:42%; /*encosta pra direita*/
+	top:60px;
+	position:absolute;/*ABSOLUTE para seguir conforme PAI .mylogotipo*/
+	
+}
+
+
+.myLogotopo > h1 > strong{ /*PROPAGANDA__tudo q fizer no <h1> acima aqui se aplica__aqui é só a cor diferent*/
+	color:#F60;
+}
+
+
+
+
+   /*  IMg ja esta obedecendo ao (Pai Mylogotipo) */
+
+.myLogotopo img{  /* TESTE FEITO+++ COMO A ALTURA DA DIV PAI
+É MENOR Q LARGURA____DEVO DEFINIR SEMPRE O LADO__MENOR PARA
+A IMAGEM FILHA NAO DISTORCER OU SOBREPOR
+
+****POR ISSO NÃO TEM WIDTH__E__SIM hEIGHT___IMG ORIGINAL TEM 1025 X 1025
+*/
+	
+	max-width:80%; /* 80% DA DIV PAI__SO PRA prevenir*/
+	max-height:80%; 
+	
+	height:80%; /* 80% DA DIV PAI 150PX = 120PX */
+	top:10%;  /* DOS 30PX Q SOBROU ALTURA DIV PAI CABE PERFEITO*/
+	
+	
+	left:5%;
+	
+	position:absolute;/*ABSOLUTE para seguir conforme PAI .mylogotipo*/
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+####
+####
+#### MENU TOPO ONDE FICA NOME DA PAGINA___
+
+## ELA É FICA FIXA APOS DESCER A PAGINA (SCROOL)
+
+___ALTURA PADRAO MENU BOOTSTRAP= 50_px
+*/
+
+
+
+
+
+
+  .affix {
+      top: 0;   /* POS Y da linha do menu QUANDO for FIXO(scrool)*/
+      width: 100%; /* SEMPRE SERA 100%____ largur da linha do menu QUANDO for FIXO(scrool)*/
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+	 
+  }
+  
+  
+ 
+ 
+
+/* MENU Q COLOQUEI DENTRO DO OUTRO*/
+
+
+/* ******* Para tamanhos do menu FECHADO/ABERTO defina
+eles SEPARADAMENTE */
+
+
+
+   /*  PAI___ MENU EM GERAL___ALTURA PADRAO MENU BOOTSTRAP= 50_px */
+#ESTOUNAPGN{
+	z-index:1;
+		margin-bottom:0px;
+
+	
+}
+
+#NAVTOTAL{
+}
+
+
+
+.navbar-header > button{
+}
+
+
+
+
+   /*  QUANDO MENU FECHADO */
+.navbar-header{
+	background-color:#161616;
+	
+}
+
+  
+#qualpagn{
+	font-size:1.2em; /*  fonte da_qual pgn vc  */
+	margin-left:5%; /*  PARA NAO CORTAR esq  */
+}
+
+#botaomenu{
+	left:80vw;  /*VW__valor de 1 a 100% da LARGURA DA TELA */
+	position:absolute;
+	margin-right:4%; /*margin direita*/
+}
+
+
+
+    /*  QUANDO MENU ABERTO */
+#bs-example-navbar-collapse-1 > ul > li{
+	height:30px;
+	font-family:"Courier New", Courier, monospace;
+	font-size:1.4em;
+	
+	margin-left:5%;
+}
+
+
+
+/* 
+####
+####
+#### FIM___MENU TOPO ONDE FICA NOME DA PAGINA___
+*/
+
+
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+/*
+___________________
+
+*/
+
+
+
